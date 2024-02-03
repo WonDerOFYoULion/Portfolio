@@ -1,0 +1,135 @@
+$text: 'DM Serif Display', serif;;
+
+@mixin container {
+  width: 1567px;
+  margin-left: auto;
+  margin-right: auto;
+} 
+
+@mixin RedButHover {
+  filter: invert(100%);
+  transform: translate(0px, -10px);
+}
+
+@mixin GrayButHover {
+  filter: contrast(200%);
+  transform: scale(1.15);
+}
+
+@mixin BlueButHover {
+  background: #7873ba;
+}
+
+@mixin Text10 {
+  color: #FFF;
+  font-family: $text;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+}
+
+@mixin Text11 {
+  color: #FFF;
+  font-family: $text;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+
+@mixin Text12 {
+  color: #FFF;
+  font-family: $text;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.182px;
+  text-transform: uppercase;
+}
+
+@mixin Text13 {
+  color: #959EA6;
+  font-family: $text;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@mixin HeaderText14 {
+  color: #FFF;
+  font-family: $text;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@mixin Text16 { 
+  color: #1C2E3D;
+  font-family: $text;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+@mixin Text18 { 
+  color: #FFF;
+  font-family: $text;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+@mixin Text24 {
+  color: #FFF;
+  font-family: $text;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 31px; 
+}
+
+@mixin Text32 {
+  color: #FFF;
+  font-family: $text;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+@mixin Text48 {
+  color: #FFF;
+  font-family: $text;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+}
+
+@mixin Text64 {
+  color: #1C2E3D;
+  text-align: center;
+  font-family: $text;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px; 
+}
+
+@mixin HeaderText80 {
+  color: #FFF;
+  font-family: $text;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 84px;
+}
