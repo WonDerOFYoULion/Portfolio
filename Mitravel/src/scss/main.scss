@@ -60,6 +60,8 @@
         text-align: left;
       }
 
+      
+
       p {
         @include Text11;
         width: 501px;
@@ -401,14 +403,6 @@
         }
       }
 
-      // .swiper-slide:hover .swiper-slide-h2 {
-      //   transform: translate(0px, 0px);
-      //   opacity: 1;
-      // }
-      // .swiper-slide:hover .video-icon {
-      //   transform: translate(0px, 0px);
-      //   opacity: 1;
-      // }
     }
   }
 

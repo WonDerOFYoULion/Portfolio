@@ -4,9 +4,10 @@ import '../scss/main.scss';
 import Swiper from 'swiper/bundle';
 import 'swiper/css/bundle';
 
+const cont = document
+
 document.addEventListener('DOMContentLoaded', function () {
   
-
   const swiper1 = new Swiper('.swiper1', {
     slidesPerView: 'auto', 
     loop: true, 
@@ -42,22 +43,19 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 const swiper = new Swiper('.swiper', {
-  slidesPerView: 'auto', // Отображаемый слайд (автоматический размер)
-  spaceBetween: 100, // Расстояние между слайдами
-  loop: true, // Зацикливание карусели
+  slidesPerView: 'auto', 
+  spaceBetween: 100, 
+  loop: true, 
   centeredSlides: true,
 
-  grabCursor: true,
   preventClicks: true,
 
-  
-
-  effect: 'coverflow', // Используем эффект coverflow
+  effect: 'coverflow', 
   coverflowEffect: {
-    rotate: 0, // Угол поворота боковых слайдов
-    stretch: 0, // Растяжение боковых слайдов
-    depth: 140, // Глубина визуализации боковых слайдов
-    modifier: 1, // Множитель, управляющий градиентом
+    rotate: 0, 
+    stretch: 0, 
+    depth: 140, 
+    modifier: 1, 
     slideShadows: false,
   },
 
